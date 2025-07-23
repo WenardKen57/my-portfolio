@@ -27,7 +27,6 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section className="purposelyEmpty"></section>
       <section className="now">
         <h3>Now</h3>
         <p>

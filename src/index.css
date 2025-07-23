@@ -1,5 +1,17 @@
+:root {
+  --primary: #2c3140;
+  --secondary: #aabdf8;
+  --tertiary: #e8eeff;
+}
+
 #root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100dvh;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary);
+}
+
+.homePage {
+  grid-column: 2 / 3;
 }

@@ -5,23 +5,19 @@
 }
 
 .homePage {
-  margin: 2rem;
+  padding: 5em 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 3rem;
-  font-size: 1.1rem;
+  color: var(--secondary);
 }
 
-.heroSection {
+.heroSection,
+.project,
+.now,
+.connect {
   grid-column: 1 / 3;
 }
 
-.now {
-  grid-column: 1 / 3;
-}
-
-.homePage > section {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
+.homePage p {
+  color: var(--tertiary);
 }
