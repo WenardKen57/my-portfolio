@@ -17,4 +17,4 @@ npm run dev
 
 # Test
 
-Check it out: [Portfolio](wenardken.netlify.app)
+Check it out: [Portfolio](https://wenardken.netlify.app)
