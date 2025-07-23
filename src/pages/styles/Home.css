@@ -5,10 +5,11 @@
 }
 
 .homePage {
+  margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 3rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .heroSection {
@@ -17,4 +18,10 @@
 
 .now {
   grid-column: 1 / 3;
+}
+
+.homePage > section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
