@@ -22,12 +22,15 @@
 
 .homePage h3,
 .homePage h2 {
-  font-size: x-large;
   margin-bottom: 20px;
 }
 
 .homePage p {
-  color: var(--tertiary);
+  color: #e8eeff;
+}
+
+.projects  p {
+  color: #a9a9aa;
 }
 
 .homePage ul {
@@ -41,10 +44,17 @@
   row-gap: 1em;
 }
 
-.projects a {
+.projects a,
+.connect a {
   text-decoration: none; 
   font-weight: bold;
+  font-size: medium;
   font-style: italic;
   border-bottom: 1px solid;
   color: var(--secondary);
+}
+
+.connect a {
+  display: flex;
+  justify-content: space-around;
 }
