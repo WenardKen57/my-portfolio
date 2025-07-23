@@ -10,6 +10,7 @@
   row-gap: 20px;
   color: var(--secondary);
   font-size: large;
+  line-height: 1.5em;
 }
 
 .heroSection,
@@ -44,5 +45,6 @@
   text-decoration: none; 
   font-weight: bold;
   font-style: italic;
+  border-bottom: 1px solid;
   color: var(--secondary);
 }
