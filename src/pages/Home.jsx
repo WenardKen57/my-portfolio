@@ -25,7 +25,17 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section className="now"></section>
+      <section className="now">
+        <h3>Now</h3>
+        <p>
+          To me learning is doing and that’s my approach to developing new
+          skills, and interest.
+        </p>
+        <p>
+          All I want to do is build websites, and now I’m starting to get
+          interested with web design.
+        </p>
+      </section>
       <section className="connect"></section>
     </div>
   );
