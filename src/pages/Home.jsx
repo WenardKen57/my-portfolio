@@ -14,15 +14,15 @@ export default function Home() {
         <h3>Projects</h3>
         <ul>
           <li>
-            <h4>CV Application</h4>
+            <a href="" target="__blank">CV Application</a>
             <p>Simple website for building CV applications.</p>
           </li>
           <li>
-            <h4>Memory game</h4>
+            <a href="" target="__blank">Memory game</a>
             <p>Remember what you've clicked.</p>
           </li>
           <li>
-            <h4>Recipe website</h4>
+            <a href="" target="__blank">Recipe website</a>
             <p>Want to cook something nice?</p>
           </li>
         </ul>
