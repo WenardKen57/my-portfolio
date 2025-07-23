@@ -1,24 +1,32 @@
 export default function Home() {
   return (
     <div className="homePage">
-      <h1>Home</h1>
       <section className="heroSection">
-        <h2>Hi, I'm Wenard</h2>
-        <p>Welcome to my portfolio</p>
-        <button>View my work</button>
-        <button>Contact me</button>
+        <h2>Wenard Ken</h2>
+        <p>
+          Hi, welcome to my portfolio. I like building polished software and web
+          experiences. Currently studying in college.
+        </p>
       </section>
-      <section className="skills">
+      <section className="projects">
+        <h3>Projects</h3>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>PHP</li>
-          <li>MySQL</li>
+          <li>
+            <h4>CV Application</h4>
+            <p>Simple website for building CV applications.</p>
+          </li>
+          <li>
+            <h4>Memory game</h4>
+            <p>Remember what you've clicked.</p>
+          </li>
+          <li>
+            <h4>Recipe website</h4>
+            <p>Want to cook something nice?</p>
+          </li>
         </ul>
       </section>
-      <section className="links"></section>
+      <section className="now"></section>
+      <section className="connect"></section>
     </div>
   );
 }
