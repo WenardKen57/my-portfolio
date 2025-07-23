@@ -8,7 +8,16 @@ export default function Home() {
         <button>View my work</button>
         <button>Contact me</button>
       </section>
-      <section className="skills"></section>
+      <section className="skills">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>PHP</li>
+          <li>MySQL</li>
+        </ul>
+      </section>
       <section className="links"></section>
     </div>
   );
