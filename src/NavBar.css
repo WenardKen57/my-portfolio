@@ -1,0 +1,10 @@
+.navBar > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: large;
+}
