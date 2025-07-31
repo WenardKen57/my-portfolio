@@ -1,0 +1,12 @@
+.projects {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}

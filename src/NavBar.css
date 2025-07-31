@@ -7,4 +7,11 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     font-size: large;
+    background-color: var(--secondary);
+    padding: 1.5rem;
+}
+
+.navBar > ul > a {
+    color: white;
+    text-decoration: none;
 }

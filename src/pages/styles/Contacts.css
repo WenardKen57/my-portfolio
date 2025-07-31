@@ -1,0 +1,8 @@
+.contacts {
+    padding: 1rem;
+}
+
+.contacts > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
