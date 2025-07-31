@@ -10,3 +10,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
+
+.projects > ul > li > a {
+    text-decoration: none;
+}

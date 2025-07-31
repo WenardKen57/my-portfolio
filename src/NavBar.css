@@ -4,6 +4,7 @@
 }
 
 .navBar {
+    height: 10%;
     display: grid;
     grid-template-columns: 2fr 1fr;
     font-size: large;

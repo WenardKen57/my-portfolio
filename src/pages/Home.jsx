@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="homePage">
       <section className="heroSection">
-        <h2>Wenard Ken</h2>
+        <h1>Wenard Ken</h1>
         <p>
           Hi, welcome to my portfolio. I like building polished software and web
           experiences. Currently studying in college.
