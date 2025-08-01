@@ -9,21 +9,6 @@ import Projects from "./pages/Projects.jsx";
 import Contacts from "./pages/Contacts.jsx";
 import NavBar from "./NavBar.jsx";
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home/>
-  },
-  {
-    path: '/about',
-    element: <About/>
-  },
-  {
-    path: '/projects',
-    element: <Projects/>
-  }
-])
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
