@@ -8,6 +8,24 @@ export default function Projects() {
         <ul>
           <li>
             <a
+              href="https://github.com/WenardKen57/Project-Admin-Dashboard"
+              target="__blank"
+            >
+              Admin Dashboard
+            </a>
+            <p>Admin dashboard with consistent and modern look I've designed.</p>
+          </li>
+          <li>
+            <a
+              href="https://github.com/WenardKen57/Sign-up-form"
+              target="__blank"
+            >
+              Sign up Form
+            </a>
+            <p>A user authentication 1 page design with consistent look and feel.</p>
+          </li>
+          <li>
+            <a
               href="https://github.com/WenardKen57/cv-application"
               target="__blank"
             >

@@ -1,98 +1,100 @@
-/* About section styling with vibrant gradient background */
-.about {
-  max-width: 800px;
-  margin: 100px auto 50px auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white for contrast */
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  position: relative;
-  z-index: 1;
-}
-
-/* Ensure parent container has gradient background */
-body {
-  background: linear-gradient(135deg, #26a69a 0%, #1e2a44 100%); /* Teal to navy gradient */
+/* Center entire section vertically & horizontally */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
-  margin: 0;
+  background: linear-gradient(135deg, #26a69a 0%, #1e2a44 100%);
+  padding: 20px;
 }
 
-/* Heading styling with teal color */
-.about h1 {
-  font-size: 2.5rem;
-  color: #26a69a; /* Teal to add vibrancy */
-  font-weight: bold;
-  margin-bottom: 20px;
+/* Grid layout */
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1000px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+/* About intro spans both columns */
+.about-intro {
+  grid-column: span 2;
   text-align: center;
 }
 
-/* Subheading styling with teal color */
-.about h3 {
+.about-intro h1 {
+  font-size: 2.5rem;
+  color: #26a69a;
+  margin-bottom: 10px;
+}
+
+.about-intro p {
+  color: #4a6360;
+  font-size: 1.2rem;
+}
+
+/* Each panel (testimonials & skills) */
+.about-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-panel h3 {
   font-size: 1.5rem;
-  color: #26a69a; /* Teal to match theme */
-  font-weight: 600;
-  margin: 30px 0 15px 0;
+  color: #26a69a;
+  margin-bottom: 15px;
 }
 
-/* Paragraph styling with a softer grayish-teal tone */
-.about p {
-  font-size: 1.1rem;
-  color: #4a6360; /* Soft grayish-teal for readability */
-  line-height: 1.6;
-  margin-bottom: 20px;
+.about-panel p {
+  margin-bottom: 15px;
+  color: #4a6360;
+  line-height: 1.5;
 }
 
-/* List styling */
-.about ul {
+.about-panel p em {
+  font-weight: bold;
+  font-style: normal;
+  color: #1e2a44;
+}
+
+/* Skills list */
+.about-panel ul {
   list-style: none;
   padding: 0;
 }
 
-/* List item styling with a slightly darker tone */
-.about ul li {
+.about-panel ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #3a4b4a;
   font-size: 1.1rem;
-  color: #3a4b4a; /* Darker grayish-teal for contrast */
-  padding: 10px 0;
-  position: relative;
-  padding-left: 25px;
-  transition: transform 0.2s ease;
+  margin-bottom: 10px;
 }
 
-/* Hover effect for list items */
-.about ul li:hover {
-  transform: translateX(5px); /* Subtle slide animation on hover */
+/* Icons styling */
+.about-panel ul li .icon {
+  font-size: 1.4rem;
 }
 
-/* Add a bullet-like icon before list items */
-.about ul li:before {
-  content: '•';
-  color: #1a7c73; /* Darker teal for bullet */
-  font-size: 1.5rem;
-  position: absolute;
-  left: 0;
-}
+.icon.html { color: #e44d26; }
+.icon.css { color: #264de4; }
+.icon.js { color: #f7df1e; }
+.icon.react { color: #61dbfb; }
+.icon.responsive { color: #26a69a; }
+.icon.teamwork { color: #3a4b4a; }
 
-/* Responsive design for smaller screens */
-@media (max-width: 600px) {
-  .about {
-    margin: 80px 15px 30px 15px;
-    padding: 15px;
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
   }
-
-  .about h1 {
-    font-size: 2rem;
-  }
-
-  .about h3 {
-    font-size: 1.3rem;
-  }
-
-  .about p {
-    font-size: 1rem;
-  }
-
-  .about ul li {
-    font-size: 1rem;
+  .about-intro {
+    grid-column: span 1;
   }
 }

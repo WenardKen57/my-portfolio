@@ -10,17 +10,27 @@ export default function Home() {
         <section className="heroSection">
           <h1>Wenard Ken</h1>
           <p>
-            Hi, welcome to my portfolio. I like building polished software and web
-            experiences. Currently studying in college.
+            I’m a front-end developer passionate about creating responsive,
+            user-friendly websites
           </p>
           <div className="social-links">
-            <a href="https://github.com/WenardKen57" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a
+              href="https://github.com/WenardKen57"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
               <FaGithub className="social-icon" />
             </a>
             <a href="mailto:your.email@example.com" aria-label="Email">
               <FaEnvelope className="social-icon" />
             </a>
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
               <FaLinkedin className="social-icon" />
             </a>
           </div>
