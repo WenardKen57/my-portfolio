@@ -1,16 +1,109 @@
+/* Projects section styling with vibrant gradient background */
 .projects {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  max-width: 1000px;
+  margin: 100px auto 50px auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
 }
 
-.projects > ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+/* Ensure parent container has gradient background */
+body {
+  background: linear-gradient(135deg, #26a69a 0%, #1e2a44 100%); /* Teal to navy gradient */
+  min-height: 100vh;
+  margin: 0;
 }
 
-.projects > ul > li > a {
-    text-decoration: none;
+/* Heading styling */
+.projects h3 {
+  font-size: 2.5rem;
+  color: #1e2a44; /* Navy to match theme */
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* List styling for two-column layout */
+.projects ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* List item (card) styling */
+.projects ul li {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Hover effect for cards */
+.projects ul li:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Link styling */
+.projects ul li a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #26a69a; /* Teal to match theme */
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.projects ul li a:hover {
+  color: #1a7c73; /* Darker teal for hover */
+  text-decoration: underline;
+}
+
+/* Paragraph styling */
+.projects ul li p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 800px) {
+  .projects ul {
+    grid-template-columns: 1fr; /* Switch to single column */
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    margin: 80px 15px 30px 15px;
+    padding: 15px;
+  }
+
+  .projects h3 {
+    font-size: 2rem;
+  }
+
+  .projects ul li {
+    padding: 15px;
+  }
+
+  .projects ul li a {
+    font-size: 1.2rem;
+  }
+
+  .projects ul li p {
+    font-size: 1rem;
+  }
 }

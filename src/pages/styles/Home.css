@@ -1,17 +1,136 @@
-#profile {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    grid-column: 3 / 4;
-
-}
-
+/* Home page styling with vibrant gradient background */
 .homePage {
-    height: 90%;
-    display: grid;
-    align-items: center;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background: linear-gradient(135deg, #26a69a 0%, #1e2a44 100%); /* Teal to navy gradient */
+  font-family: 'Arial', sans-serif;
 }
 
+/* Two-panel layout */
+.twoPanel {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 20px; /* Remove top/bottom margin to avoid extra spacing */
+  gap: 20px;
+}
+
+/* Hero section styling (left panel) */
 .heroSection {
-    grid-column: 2 / 3;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styling */
+.heroSection h1 {
+  font-size: 3rem;
+  color: #1e2a44; /* Navy to match theme */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Paragraph styling */
+.heroSection p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 500px; /* Limit width for readability */
+}
+
+/* Social links container styling */
+.social-links {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  gap: 20px;
+}
+
+/* Social icon styling */
+.social-icon {
+  font-size: 2.5rem;
+  color: #26a69a; /* Teal to match theme */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for social icons */
+.social-icon:hover {
+  color: #1a7c73; /* Darker teal for hover */
+  transform: scale(1.2); /* Slight scale-up animation */
+}
+
+/* Profile section styling (right panel) */
+.profileSection {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+  padding: 20px;
+  background: none; /* Remove white background */
+}
+
+/* Profile image styling with modern border */
+#profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #e6f3fa; /* Soft white border to match NavBar */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#profile:hover {
+  transform: rotate(5deg); /* Subtle rotate animation on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 800px) {
+  .twoPanel {
+    flex-direction: column;
+    align-items: center; /* Center panels vertically */
+    margin: 20px 15px;
+  }
+
+  .heroSection {
+    padding: 30px 15px;
+  }
+
+  .profileSection {
+    padding: 15px;
+  }
+
+  .heroSection h1 {
+    font-size: 2rem;
+  }
+
+  .heroSection p {
+    font-size: 1rem;
+  }
+
+  .social-icon {
+    font-size: 2rem;
+  }
+
+  #profile {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  #profile {
+    width: 150px;
+    height: 150px;
+  }
 }
