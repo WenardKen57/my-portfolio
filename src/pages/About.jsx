@@ -38,6 +38,15 @@ export default function About() {
             communication, and problem-solving, and I’m eager to apply these
             skills to real-world projects.
           </p>
+
+          {/* Download Resume Button */}
+          <a
+            href="/Wenard_Ken_Santos_Resume.pdf"
+            download
+            className="download-btn"
+          >
+            Download Resume
+          </a>
         </div>
 
         {/* Testimonials (left column) */}
