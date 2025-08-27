@@ -24,7 +24,6 @@
 /* About intro spans both columns */
 .about-intro {
   grid-column: span 2;
-  text-align: center;
 }
 
 .about-intro h1 {

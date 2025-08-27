@@ -16,9 +16,27 @@ export default function About() {
         <div className="about-intro">
           <h1>About</h1>
           <p>
-            I specialize in creating user-friendly, responsive websites using
-            modern technologies like HTML, CSS, JavaScript, and React. I've
-            worked on projects like Events Reservation Management.
+            <strong>
+              Hi, I’m Wenard Ken Santos, a 3rd-year Information Technology
+              student with a passion for project management.
+            </strong>
+          </p>
+          <br />
+          <p>
+            During my 2nd year, I had the opportunity to{" "}
+            <strong>lead a student team project</strong>, where I coordinated
+            tasks, aligned deadlines, and made sure our group delivered results
+            successfully. That experience sparked my interest in{" "}
+            <strong>project management and leadership</strong>, and I’ve been
+            building on those skills ever since.
+          </p>
+          <br />
+          <p>
+            I enjoy working with{" "}
+            <strong>different kinds of people and disciplines</strong>, making
+            sure ideas turn into action. My strengths lie in organization,
+            communication, and problem-solving, and I’m eager to apply these
+            skills to real-world projects.
           </p>
         </div>
 
@@ -26,14 +44,11 @@ export default function About() {
         <div className="about-panel">
           <h3>Testimonials</h3>
           <p>
-            "Working with Wenard Ken was a pleasure. His front-end skills and
-            attention to detail delivered a seamless user experience on our
-            project.” - <em>Jonathan Tabios, PM</em>
-          </p>
-          <p>
-            "Wenard Ken’s ability to translate designs into responsive,
-            functional websites is impressive. They made collaboration
-            effortless." - <em>Jeffrey Aguasan, UI/UX</em>
+            "Working with Wenard Ken Santos was a great experience. As our team
+            leader, they made sure everyone understood their responsibilities,
+            kept us on track, and motivated us to push through challenges. They
+            have a natural ability to bring people together and deliver results"
+            - <em>Jonathan Tabios, Back end</em>
           </p>
         </div>
 
