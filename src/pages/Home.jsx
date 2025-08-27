@@ -10,8 +10,7 @@ export default function Home() {
         <section className="heroSection">
           <h1>Wenard Ken</h1>
           <p>
-            I’m a front-end developer passionate about creating responsive,
-            user-friendly websites
+            Project Manager | Driving cross-functional teams to deliver impact.
           </p>
           <div className="social-links">
             <a
@@ -22,7 +21,7 @@ export default function Home() {
             >
               <FaGithub className="social-icon" />
             </a>
-            <a href="mailto:your.email@example.com" aria-label="Email">
+            <a href="mailto:wenardken57@gmail.com" aria-label="Email">
               <FaEnvelope className="social-icon" />
             </a>
             <a
