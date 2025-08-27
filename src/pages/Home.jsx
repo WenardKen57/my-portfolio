@@ -1,5 +1,5 @@
 import NavBar from "../NavBar";
-import Prof from "./../assets/prof.jpeg";
+import Prof from "./../assets/prof-2.JPG";
 import "./styles/Home.css";
 import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
