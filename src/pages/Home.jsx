@@ -10,7 +10,8 @@ export default function Home() {
         <section className="heroSection">
           <h1>Wenard Ken</h1>
           <p>
-            Project Manager | Driving cross-functional teams to deliver impact.
+            Back-End Developer | Building scalable APIs, databases, and robust
+            server-side applications.
           </p>
           <div className="social-links">
             <a

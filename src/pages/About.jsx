@@ -3,9 +3,12 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
+  FaPhp,
   FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaServer,
   FaUsers,
-  FaMobileAlt,
 } from "react-icons/fa";
 
 export default function About() {
@@ -18,30 +21,28 @@ export default function About() {
           <p>
             <strong>
               Hi, I’m Wenard Ken Santos, a 3rd-year Information Technology
-              student with a passion for project management.
+              student with a passion for back-end development.
             </strong>
           </p>
           <br />
           <p>
-            During my 2nd year, I had the opportunity to{" "}
-            <strong>lead a student team project</strong>, where I coordinated
-            tasks, aligned deadlines, and made sure our group delivered results
-            successfully. That experience sparked my interest in{" "}
-            <strong>project management and leadership</strong>, and I’ve been
-            building on those skills ever since.
+            During my studies, I discovered my interest in{" "}
+            <strong>server-side programming, databases, and APIs</strong>. I’ve
+            been building projects that focus on creating scalable, secure, and
+            efficient back-end systems while keeping performance in mind.
           </p>
           <br />
           <p>
-            I enjoy working with{" "}
-            <strong>different kinds of people and disciplines</strong>, making
-            sure ideas turn into action. My strengths lie in organization,
-            communication, and problem-solving, and I’m eager to apply these
-            skills to real-world projects.
+            I enjoy solving <strong>complex technical problems</strong>,
+            optimizing code, and designing systems that support real-world
+            applications. My strengths lie in{" "}
+            <strong>database management, API development, and teamwork</strong>,
+            and I’m excited to grow further as a back-end developer.
           </p>
 
           {/* Download Resume Button */}
           <a
-            href="/Wenard_Ken_Santos_Resume.pdf"
+            href="/Wenard_Ken_Santos_Backend_Resume.pdf"
             download
             className="download-btn"
           >
@@ -53,11 +54,10 @@ export default function About() {
         <div className="about-panel">
           <h3>Testimonials</h3>
           <p>
-            "Working with Wenard Ken Santos was a great experience. As our team
-            leader, they made sure everyone understood their responsibilities,
-            kept us on track, and motivated us to push through challenges. They
-            have a natural ability to bring people together and deliver results"
-            - <em>Jonathan Tabios, Back end</em>
+            "Wenard has a strong grasp of server-side development and databases.
+            He consistently delivers clean, efficient solutions and collaborates
+            well with the team. His ability to troubleshoot and optimize systems
+            is impressive." - <em>Jonathan Tabios, Software Engineer</em>
           </p>
         </div>
 
@@ -66,22 +66,27 @@ export default function About() {
           <h3>My Skills</h3>
           <ul>
             <li>
-              <FaHtml5 className="icon html" /> HTML
+              <FaNodeJs className="icon node" /> Node.js
             </li>
             <li>
-              <FaCss3Alt className="icon css" /> CSS
+              <FaDatabase className="icon db" /> SQL / MongoDB
             </li>
             <li>
-              <FaJs className="icon js" /> JavaScript
+              <FaServer className="icon server" /> RESTful APIs
             </li>
             <li>
-              <FaReact className="icon react" /> React
+              <FaJs className="icon js" /> JavaScript (ES6+)
             </li>
             <li>
-              <FaMobileAlt className="icon responsive" /> Responsive Design
+              <FaPhp className="icon php" /> PHP
             </li>
             <li>
-              <FaUsers className="icon teamwork" /> Team Work / Problem Solving
+              <FaReact className="icon react" /> React (for front-end
+              integration)
+            </li>
+            <li>
+              <FaUsers className="icon teamwork" /> Team Collaboration / Problem
+              Solving
             </li>
           </ul>
 
