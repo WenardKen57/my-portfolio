@@ -27,19 +27,7 @@ export default function Contacts() {
             my latest work and collaborate with others.
           </p>
         </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/yourprofile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className="contact-icon" /> LinkedIn
-          </a>
-          <p>
-            Connect on LinkedIn for professional networking and to view my
-            detailed work experience.
-          </p>
-        </li>
+
         <li>
           <a href="mailto:wenardken57@gmail.com">
             <FaEnvelope className="contact-icon" /> Email
